@@ -1,0 +1,55 @@
+{
+    "cSpell.language": "en,en-US",
+    "psi-header.variables": [
+        ["company", "Tencent"]
+    ],
+    "psi-header.templates": [
+        {
+            "language": "typescript",
+            "template": [
+                "File: <<filerelativepath>>",
+                "Project: <<projectname>>",
+                "Created Date: <<filecreated('dddd MMMM Do YYYY')>>",
+                "Author: <<author>>",
+                "-----",
+                "Copyright (c) <<year>> <<company>>"
+            ]
+        },
+        {
+            "language": "typescriptreact",
+            "template": [
+                "File: <<filerelativepath>>",
+                "Project: <<projectname>>",
+                "Created Date: <<filecreated('dddd MMMM Do YYYY')>>",
+                "Author: <<author>>",
+                "-----",
+                "Copyright (c) <<year>> <<company>>"
+            ]
+        }
+    ],
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+    "search.exclude": {
+        "*.d.ts": true,
+        "*.html": true,
+        "*.map": true
+    },
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        "typescript",
+        "typescriptreact"
+    ],
+    "eslint.codeAction.disableRuleComment": {
+        "enable": false,
+        "location": "separateLine"
+    },
+    "eslint.nodePath": "./node_modules",
+    "eslint.enable": true,
+    "typescript.preferences.quoteStyle": "single",
+    "typescript.preferences.importModuleSpecifier": "relative",
+    "rdhelper.cas.status": "tempclose",
+    "jestrunner.jestPath": "./node_modules/.bin/jest",
+    "git.inputValidationSubjectLength": null,
+    "git.inputValidationLength": 72
+}
