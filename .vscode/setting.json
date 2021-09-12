@@ -51,5 +51,14 @@
     "rdhelper.cas.status": "tempclose",
     "jestrunner.jestPath": "./node_modules/.bin/jest",
     "git.inputValidationSubjectLength": null,
-    "git.inputValidationLength": 72
+    "git.inputValidationLength": 72,
+    "css.validate": false,
+    "less.validate": false,
+    "scss.validate": false,
+    
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true,
+        "source.fixAll.stylelint": true
+    }
 }
